@@ -17,7 +17,7 @@ function Account() {
                             <label className='w-auto max-w-full opacity-0 absolute transition-opacity -top-[22px] left-[11px] block font-normal p-0 m-0'>
                                 <span> Email Address </span>
                             </label>
-                            <div className='text-red-700 mt-[5px] ml-[21px]'>
+                            <div className='text-red-700 mt-[5px] ml-[21px] hidden'>
                                 <div className='text-sm leading-4'>This is a mandatory field.</div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@ function Account() {
                             <label className='w-auto max-w-full opacity-0 absolute transition-opacity -top-[22px] left-[11px] block font-normal p-0 m-0'>
                                 <span> Password </span>
                             </label>
-                            <div className='text-red-700 mt-[5px] ml-[21px]'>
+                            <div className='text-red-700 mt-[5px] ml-[21px] hidden'>
                                 <div className='text-sm leading-4'>This is a mandatory field.</div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ function Account() {
                             </div>
                             <div className='text-right m-0 pl-[6px] text-sm'>
                                 <a
-                                    className='text-blue-500 bg-white transition-all'
+                                    className='text-blue-500 bg-white transition-all cursor-pointer'
                                     title='You can reset your password here'>
                                     Forgot password?
                                 </a>
@@ -69,7 +69,7 @@ function Account() {
                         <div className='mb-0 justify-between flex my-8'>
                             <button
                                 type='submit'
-                                className='pt-3 px-5 pb-2.5 w-full block align-middle cursor-pointer text-white text-center uppercase appearance-none border border-solid border-blue-600 bg-blue-600 text-base font-bold leading-[21px] transition-all tracking-wider'>
+                                className='pt-3 px-5 pb-2.5 w-full block align-middle cursor-pointer text-white text-center uppercase appearance-none border border-solid bg-secondary-color bg-secondary-color text-base font-bold leading-[21px] transition-all tracking-wider'>
                                 Log in
                             </button>
                         </div>
